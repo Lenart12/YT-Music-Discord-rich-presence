@@ -12,7 +12,13 @@ After cloning (or downloading) this repo installing is done in two parts.
 
 ### 1. Extension
 
+#### Firefox
+
 Go to `about:debugging#/runtime/this-firefox` on your browser and add *temporary* extension. Select manifest.json from the repo.
+
+#### Chrome
+
+Go to `chrome://extensions/` on your browser and enable developer mode, then add unpacked and select the cloned repo.
 
 ### 2. Rich presence service
 
