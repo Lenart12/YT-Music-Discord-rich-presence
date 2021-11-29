@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Youtube Music Discord Rich Presence",
+    "version": "1.0",
+  
+    "description": "Adds Discord rich presnece for Youtube music",
+  
+    "icons": {
+      "48": "icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.music.youtube.com/*"],
+        "js": ["ytmdrp.js"]
+      }
+    ]
+  
+  }
+  
