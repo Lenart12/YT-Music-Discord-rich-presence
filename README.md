@@ -33,7 +33,7 @@ then run command `qckwinsvc`.
 When prompted put:
 * For service name put `ytmdrp` (or anything else)
 * Put a description of your choosing
-* For script put `ytmdrp.js`
+* For script put `rpcserver.js`
 
 #### Linux
 
